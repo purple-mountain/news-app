@@ -1,10 +1,10 @@
-import { ArticleList } from "@/components/articles/articleList";
+import { ArticleSectionList } from "@/components/articles/articleSectionList";
 import { SafeAreaView, StyleSheet } from "react-native";
 
-export default function HomeScreen() {
+export default function SectionScreen() {
   return (
     <SafeAreaView style={styles.container}>
-      <ArticleList />
+      <ArticleSectionList />
     </SafeAreaView>
   );
 }
